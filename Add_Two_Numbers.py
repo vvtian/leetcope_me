@@ -24,6 +24,7 @@ class Solution(object):
         for x in range(0,lenght):
             L.append(str(value)[-(x+1)])
         L = [int(y) for y in L]
-        print(str(L))
+        return L
 
-so = Solution().addTwoNumbers([2,4,3],[5,6,4])        
+so = Solution().addTwoNumbers([2,4,3],[5,6,4])
+print(so)

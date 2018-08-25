@@ -12,7 +12,7 @@ class Solution(object):
 
 
 
-y = Solution().twoSum([2, 7, 11, 15],9)
+y = Solution().twoSum([3,2,4],6)
 print(y)
 
 
